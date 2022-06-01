@@ -7,7 +7,7 @@
 def find_anagrams(word_input, word_inp):
     # [assignment] Add your code here
     if len(word_input) != len(word_inp):
-        return True
+        return False
     else:
         string_input = sorted(word_input)
         string_inp = sorted(word_inp)
