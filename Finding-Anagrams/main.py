@@ -2,6 +2,8 @@
 # Example:
 # find_anagrams("hello") --> False
 # find_anagrams("racecar") --> True
+word_input = input("Enter the first word:") 
+word_inp = input("Enter the second word:") 
 
 
 def find_anagrams(word_input, word_inp):
